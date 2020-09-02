@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*vh 뷰 포트(화면크) 너비 값의 100분의 1단/***/
+  height: 100vh;
+  background: url('img/city.jpg');
+  background-repeat: no-repeat;
+  /*cover 이미지 화면에 맞춰서
+  하지만 크기 줄일시, 잘리는 부분 생김
+  contain - 이미지가 잘리지 않고 다 보여/
+  auto -  기본 옵션, 배경의 원래 크기*/
+  background-size: cover;
+}
